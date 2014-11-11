@@ -10,6 +10,6 @@ app.use (req, res, next) ->
   return
 
 app.get '/', (req, res) ->
-  res.jsonp({message: "Hopefully you see this"})
+  res.json({message: "Hopefully you see this"})
 
 app.listen(4000)

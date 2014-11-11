@@ -14,7 +14,7 @@
   });
 
   app.get('/', function(req, res) {
-    return res.jsonp({
+    return res.json({
       message: "Hopefully you see this"
     });
   });
